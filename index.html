@@ -1,1 +1,1518 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style type="text/css">
+        .icon {
+            width: 1em; height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+    <script src="js/wei.js"></script>
+    <script src="js/index-page.js"></script>
+    <script src="font1/iconfont.js"></script>
+</head>
+<body>
+<div id="topad">
+    <div class="w1200">
+        <img src="img/top.jpg" alt="">
+        <a href="#"><i></i></a>
+    </div>
+</div>
+<div id="top">
+    <div class="w1200">
+        <ul id="top-left" class="clearfix">
+            <li class="top-div" id="top-user"><span><a href="javascript:;">国美会员</a><i></i></span><div></div></li>
+            <li id="top-login">
+                <a href="javascript:;">登录</a>
+                <a class="nav_text_red" href="javascript:;">注册有礼<i></i></a>
+            </li>
+        </ul>
+        <ul id="top-right">
+            <li><span><a href="javascript:;">我的订单</a></span></li>
+            <li class="top-div "id="navgm"><span><a href="javascript:;">我的国美</a><i></i></span><div></div></li>
+            <li class="top-div "id="navbuy"><span><a href="javascript:;">企业采购</a><i></i></span><div></div></li>
+            <li class="top-div" id="navservice"><span><em></em><a href="javascript:;">服务中心</a><i></i></span><div></div></li>
+            <li class="top-div" id="navweb"><span><a href="javascript:;">网站导航</a><i></i></span><div></div></li>
+            <li class="top-div" id="navphone"><span><em></em><a href="javascript:;">手机国美</a><i></i></span><div></div></li>
+
+        </ul>
+    </div>
+</div>
+<div class="sousuo w1200">
+    <div id="header">
+        <div id="logo">
+            <a href="javascript:;"></a>
+        </div>
+        <div class="topsearch">
+            <div id="topSearchHover" class="searchbox">
+                <form id="searchForm">
+                    <div id="search-type-dropdown">
+                        <div class="search-type">
+                            <span class="search-type-selected">商品</span>
+                            <i></i>
+                        </div>
+                        <ul class="search-type-list">
+                            <li class="search-type-item" data-selector="goods">商品</li>
+                            <li class="search-type-item" data-selector="shop">店铺</li>
+                            <li class="search-type-item" data-selector="topic">话题</li>
+                            <li class="search-type-item" data-selector="group">圈子</li>
+                        </ul>
+                    </div>
+                    <input type="text" id="searchInput" name="question" value="" autocomplete="off">
+                    <button type="button" class="search-btn">搜索</button>
+                </form>
+                <a href="javascript:;"><div class="voice-search"></div></a>
+            </div>
+            <div class="hotkeyword">
+                <a class="highlight" target="_blank" href="javascript:;">海尔冰箱</a>
+                <a target="_blank" href="javascript:;">1元投</a>
+                <a target="_blank" href="javascript:;">立省1000</a>
+                <a target="_blank" href="javascript:;">下单减800</a>
+                <a target="_blank" href="javascript:;">啤酒1元起</a>
+                <a target="_blank" href="javascript:;">满千减百</a>
+                <a target="_blank" href="javascript:;">5折iPhone X</a>
+                <a target="_blank" href="javascript:;">厨房卫浴</a>
+                <a target="_blank" href="javascript:;">商品排行榜</a>
+                <a target="_blank" href="javascript:;" >热门推荐</a>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="buycar"><a href="javascript:;"><em></em>购物车空了<i></i></a></span>
+            <div class="buy-div"></div>
+        </div>
+    </div>
+</div>
+<div id="banner-nav">
+    <div class="w1200">
+        <div class="sidenav">
+            <h2><a href="javascript:;">全部商品分类</a></h2>
+        </div>
+        <ul class="mainnav">
+            <li><a class="nav_text_red" href="javascript:;"><span>圈子</span></a></li>
+            <li><a href="javascript:;"><span>真划算</span></a><span class="tag_line"></span></li>
+            <li><a href="javascript:;"><span>服装城</span></a></li>
+            <li><a href="javascript:;"><span>超市</span></a></li>
+            <li><a href="javascript:;"><span>电器城</span></a></li>
+            <li><a href="javascript:;"><span>国美电器</span></a><span class="tag_hot"></span></li>
+            <li><a href="javascript:;"><span>汽车</span></a></li>
+            <li><a href="javascript:;"><span>家居家装</span></a><span class="tag_line"></span></li>
+            <li><a href="javascript:;"><span>智能</span></a></li>
+            <li><a href="javascript:;"><span>管家</span></a></li>
+            <li><a href="javascript:;"><span>金融</span></a></li>
+        </ul>
+
+    </div>
+</div>
+<div id="wrap">
+    <div class="w1200">
+        <div class="banner-left">
+            <ul class="lisnav-ul" id="lisnav">
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">手机</a>
+                        <a href="#" target="_blank">充值</a>
+                        <a href="#" target="_blank">相机</a>
+                        <a href="#" target="_blank">智能数码</a>
+                    </h3>
+                    <div>1</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">电脑</a>
+                        <a href="#" target="_blank">办公配件</a>
+                    </h3>
+                    <div>2</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">电视 影音</a>
+                        <a href="#" target="_blank">智能</a>
+                    </h3>
+                    <div>3</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">空调</a>
+                        <a href="#" target="_blank">冰箱</a>
+                        <a href="#" target="_blank">洗衣机</a>
+                    </h3>
+                    <div>4</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">厨房卫浴</a>
+                        <a href="#" target="_blank">生活电器</a>
+                        <a href="#" target="_blank">电风扇</a>
+                    </h3>
+                    <div>5</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">家具</a>
+                        <a href="#" target="_blank">建材</a>
+                        <a href="#" target="_blank">家装服务</a>
+                    </h3>
+                    <div>6</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">家纺</a>
+                        <a href="#" target="_blank">家居</a>
+                        <a href="#" target="_blank">家居家装</a>
+                    </h3>
+                    <div>7</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">食品酒水</a>
+                        <a href="#" target="_blank">母婴玩具</a>
+                    </h3>
+                    <div>8</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">医疗保健</a>
+                        <a href="#" target="_blank">美妆个护</a>
+                    </h3>
+                    <div>9</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">服饰鞋帽</a>
+                        <a href="#" target="_blank">箱包奢品</a>
+                    </h3>
+                    <div>10</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">运动户外</a>
+                        <a href="#" target="_blank">钟表首饰</a>
+                    </h3>
+                    <div>11</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">汽车整车</a>
+                        <a href="#" target="_blank">汽车用品</a>
+                    </h3>
+                    <div>12</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">文化艺术</a>
+                        <a href="#" target="_blank">游戏</a>
+                    </h3>
+                    <div>13</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">金融理财</a>
+                        <a href="#" target="_blank">基金理财</a>
+                    </h3>
+                    <div>14</div>
+                </li>
+                <li>
+                    <h3>
+                        <a href="#" target="_blank">国美管家</a>
+                    </h3>
+                    <div>15</div>
+                </li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul id="banner"></ul>
+            <ol id="banner-bottom"></ol>
+            <div class="btn-bg">
+                <div class="btn-prev">
+                    <a href="javascript:;" class="btn show_left prev" id="prev"></a>
+                </div>
+                <div class="btn-next">
+                    <a href="javascript:;" class="btn show_right next" id="next"></a>
+                </div>
+            </div>
+        </div>
+        <div class="banner-right-bg">
+            <div class="banner-right">
+                <div class="news">
+                    <div class="kuaixun">
+                        <h2 class="fl">最新消息</h2>
+                        <a href="javascript:;" class="fr">更多 ></a>
+                    </div>
+                    <dl>
+                        <dt><a href="#">特惠</a></dt>
+                        <dd><a href="#">手机特惠 购机即享9.5折充值</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">特惠</a></dt>
+                        <dd><a href="#" style="color: #f5004b">青春不放假 满199减100</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">特惠</a></dt>
+                        <dd><a href="#">全民学生价 5折狂欢购</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">特惠</a></dt>
+                        <dd><a href="#">数码装备要升级 低至24.9元</a></dd>
+                    </dl>
+
+                </div>
+                <div class="server-bg">
+                    <ul class="server">
+                        <li>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-shouji"></use>
+                            </svg>
+                            <a href="javascript:;">充话费</a>
+                            <div></div>
+                        </li>
+                        <li><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-chongliuliangicon"></use>
+                        </svg><a href="javascript:;">充流量</a><div></div></li>
+                        <li><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-youxi"></use>
+                        </svg><a href="javascript:;">游戏</a><div></div></li>
+                        <li><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-meiyingbao"></use>
+                        </svg><a href="javascript:;">美盈宝</a><div></div></li>
+                        <li><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-zhaiquanzhuanrangicon_huaban"></use>
+                        </svg><a href="javascript:;">转让</a><div></div></li>
+                        <li><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-zhaofuwu"></use>
+                        </svg><a href="javascript:;">找服务</a><div></div></li>
+                        <li><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-jinrong"></use>
+                        </svg><a href="javascript:;">金融</a><div></div></li>
+                        <li><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-qiandai"></use>
+                        </svg><a href="javascript:;">定期</a><div></div></li>
+                        <li><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-bangzhuzhongxin"></use>
+                        </svg><a href="javascript:;">帮助</a><div></div></li>
+                    </ul>
+                </div>
+                <div class="newslink">
+                    <a href="javascript:;">
+                        <img src="img/newslink.jpg" alt="">
+                        <p>[ 空调嗨购 ]<br><span>最高减1000元</span></p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="every-day" class="w1200">
+    <div class="daily">
+        <div class="daily-tit">
+            <h3>每日必抢</h3>
+            <p class="date" id="timer">本场剩余时间 <span><em id="_h">00</em> : <em id="_m">00</em> : <em id="_s">00</em></span></p>
+        </div>
+        <div class="daily-main">
+            <p class="daily-next"></p>
+            <p class="daily-pre"></p>
+        </div>
+    </div>
+    <div class="daily-new">
+        <a href="#"><img src="img/daily_new.jpg" alt=""></a>
+    </div>
+</div>
+<div class="tao w1200 clearfix">
+    <div class="tao-l fl">
+        <div class="tao-tit clearfix">
+            <h2 class="fl">淘 · 实惠</h2>
+            <span class="fl">BARGAINS</span>
+        </div>
+        <div class="tao-cont clearfix">
+            <a href="#" class="fl"><img src="img/features1.jpg" alt=""></a>
+            <a href="#" class="fl dash"><img src="img/features2.jpg" alt=""></a>
+            <a href="#" class="fl"><img src="img/features3.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="tao-l fl">
+        <div class="tao-tit clearfix">
+            <h2 class="fl">购 · 新潮</h2>
+            <span class="fl">FASHION</span>
+        </div>
+        <div class="tao-cont clearfix">
+            <a href="#" class="fl"><img src="img/features4.jpg" alt=""></a>
+            <a href="#" class="fl dash"><img src="img/features5.jpg" alt=""></a>
+            <a href="#" class="fl"><img src="img/features6.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="tao-r fr">
+        <div class="tao-tit clearfix">
+            <h2 class="fl">逛 · 品牌</h2>
+            <span class="fl">BRANDS</span>
+        </div>
+        <div class="tao-rcont clearfix">
+            <div class="tao-contl fl">
+                <a href="#" class="fl dash"><img src="img/features7.png" alt=""></a>
+                <a href="#" class="fl"><img src="img/features8.jpg" alt=""></a>
+            </div>
+            <div class="tao-contr fr">
+                <a href="#" class="fr"><img src="img/phBrand1.jpg" alt=""></a>
+                <a href="#" class="fr"><img src="img/phBrand2.jpg" alt=""></a>
+                <a href="#" class="fr"><img src="img/phBrand3.png" alt=""></a>
+                <a href="#" class="fr"><img src="img/phBrand4.jpg" alt=""></a>
+                <a href="#" class="fr"><img src="img/phBrand5.jpg" alt=""></a>
+                <a href="#" class="fr"><img src="img/phBrand6.jpg" alt=""></a>
+                <a href="#" class="fr"><img src="img/phBrand7.jpg" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="jinrong w1200 clearfix">
+    <div class="jin-tit clearfix">
+        <h2 class="fl">金融</h2>
+        <span class="fl">FINANCE</span>
+    </div>
+    <div class="jin-cont clearfix">
+        <div class="fl">
+            <a href="#"><img src="img/finance_left.jpg" alt=""></a>
+        </div>
+        <div class="fl jcont clearfix">
+            <a href="#" class="fl nodash"><img src="img/finance1.jpg" alt=""></a>
+            <a href="#" class="fl"><img src="img/finance2.jpg" alt=""></a>
+            <a href="#" class="fl"><img src="img/finance3.jpg" alt=""></a>
+            <a href="#" class="fl"><img src="img/finance4.jpg" alt=""></a>
+        </div>
+
+    </div>
+</div>
+<div class="quan w1200 clearfix">
+    <div class="quan-l fl"><a href="#"><img src="img/coupon_title.jpg" alt=""></a></div>
+    <ul class="quan-m fl">
+        <li><a href="#"><img src="img/coupon1.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/coupon2.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/coupon3.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/coupon4.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/coupon5.jpg" alt=""></a></li>
+    </ul>
+    <div class="quan-r fl"><a href="#"><img src="img/coupon_more.jpg" alt=""></a></div>
+</div>
+<div class="hot-topic-bg">
+    <div class="w1200 clearfix">
+        <div class="hot-topic fl">
+            <div class="hot-topic-tit">
+                <h3 class="fl">热门话题</h3>
+                <a href="javascript:;" class="fr">发布话题></a>
+            </div>
+            <ul class="hot-content fl">
+                <li class="fl">
+                    <a href="javascript:;"><img src="img/hot1.jpg" alt=""></a>
+                    <dl>
+                        <dt><a href="javascript:;">晒购物车截图，赢优惠券好礼！</a></dt>
+                        <dd><a href="javascript:;">“独乐乐不如众乐乐”，一个人买买买不如一群人剁剁剁来的热闹。毕竟每到大促时节，便宜又超值的好东西总是太多了！</a></dd>
+                    </dl>
+                </li>
+                <li class="fl">
+                    <a href="javascript:;"><img src="img/hot1.jpg" alt=""></a>
+                    <dl>
+                        <dt><a href="javascript:;">晒购物车截图，赢优惠券好礼！</a></dt>
+                        <dd><a href="javascript:;">“独乐乐不如众乐乐”，一个人买买买不如一群人剁剁剁来的热闹。毕竟每到大促时节，便宜又超值的好东西总是太多了！</a></dd>
+                    </dl>
+                </li>
+                <li class="fl">
+                    <a href="javascript:;"><img src="img/hot1.jpg" alt=""></a>
+                    <dl>
+                        <dt><a href="javascript:;">晒购物车截图，赢优惠券好礼！</a></dt>
+                        <dd><a href="javascript:;">“独乐乐不如众乐乐”，一个人买买买不如一群人剁剁剁来的热闹。毕竟每到大促时节，便宜又超值的好东西总是太多了！</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="interest fr">
+            <div class="hot-topic-tit clearfix">
+                <h3 class="fl">兴趣圈子</h3>
+                <a href="javascript:;" class="fr">更多></a>
+            </div>
+            <div class="interest-cont">
+                <div class="inter-cont-top"><img src="img/interest-cont.jpg" alt=""></div>
+                <div class="inter-cont-mid">
+                    <span><a href="#">秘制烘焙</a></span>
+                    <span>成员661 话题41</span>
+                </div>
+               <p><a href="#">[ 话题 ] 人生的四重奏 傲慢与偏见</a></p>
+               <p><a href="#">[ 话题 ] 【晒好物+小熊绞肉机】</a></p>
+               <p><a href="#">[ 话题 ] 下午茶 不讲究茶具的吃货</a></p>
+               <p><a href="#">[ 话题 ] 浪漫冰淇淋，炎炎夏日带给 </a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gm-fn-wrap">
+
+    <ul class="gm-floor-nav" id="floor-nav">
+        <h2>楼层导航</h2>
+        <li><a href="javascript:;" class="active"><span>1F</span><p>手机通讯</p></a></li>
+        <li><a href="javascript:;"><span>2F</span><p>电脑数码</p></a></li>
+        <li><a href="javascript:;"><span>3F</span><p>家用电器</p></a></li>
+        <li><a href="javascript:;"><span>4F</span><p>厨房卫浴</p></a></li>
+        <li><a href="javascript:;"><span>5F</span><p>国美超市</p></a></li>
+        <li><a href="#javascript:;"><span>6F</span><p>服饰鞋包</p></a></li>
+        <li><a href="javascript:;"><span>7F</span><p>家居家装</p></a></li>
+        <li><a href="javascript:;"><span>8F</span><p>汽车用品</p></a></li>
+        <li><a href="javascript:;"><span>9F</span><p>生活服务</p></a></li>
+        <li class="gm-top"><em></em></li>
+        <li class="gm-bottom"><em></em></li>
+    </ul>
+
+    <!--一楼-->
+    <div id="floor1" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">1F <span>手机通讯</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">时尚新品</a></li>
+                <li><a href="#">加价换购</a></li>
+                <li><a href="#">畅享低价</a></li>
+                <li><a href="#">全面屏VS刘海屏</a></li>
+                <li><a href="#">淘实惠</a></li>
+                <li><a href="#">精选单品</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl">
+            <a href="#" class="l-top"><img src="img/oneL.jpg" alt=""></a>
+            <p><a href="#">手机</a><span>/</span><a href="#">充值</a><span>/</span><a href="#">淘实惠</a><span>/</span><a href="#">领劵</a></p>
+            <ul class="fl">
+                <li><a href="#">荣耀手机</a></li>
+                <li><a href="#">国美手机</a></li>
+                <li><a href="#">华为手机</a></li>
+                <li><a href="#">热销推荐</a></li>
+                <li><a href="#">以旧换新</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">潮3C</a></li>
+                <li><a href="#">魅族</a></li>
+                <li><a href="#">配件</a></li>
+                <li><a href="#">存储卡</a></li>
+                <li><a href="#">保护套</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">国美租租</a></li>
+                <li><a href="#">小米手机</a></li>
+                <li><a href="#">加价换购</a></li>
+                <li><a href="#">蓝牙耳机</a></li>
+                <li><a href="#">返利攻略</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap  fr">
+            <div class="floor-main fr" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/phone1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/phone2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/phone3.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="pspan"><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block">
+                            <li><a href="#"><img src="img/phBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand3.png"></a></li>
+                            <li><a href="#"><img src="img/phBrand4.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand6.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/phBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/phBrand12.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="img/floor/floor1_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor1_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor1_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor1_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor1_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor1_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main">
+                <!--<ul class="floor-main-list">
+                    <li>
+                    <a href="#">
+                        <img src="img/floor/floor1_11.jpg" alt="">
+                        <p class="p-name">华为 nova3 全网通 樱草金</p>
+                        <p class="p-price">￥2999.00</p>
+                    </a>
+                </li>
+                </ul>-->
+            </div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <i class="next nextbut"></i>
+        </div>
+    </div>
+    <div id="floor2" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">2F <span>电脑数码</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">新品抢先</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">摄影摄像</a></li>
+                <li><a href="#">智能潮品</a></li>
+                <li><a href="#">OA配件</a></li>
+                <li><a href="#">平板专区</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl" style="background: #50bfec">
+            <a href="#" class="l-top"><img src="img/twoL.jpg" alt=""></a>
+            <p style="background: #3eb8e9" ><a href="#">电脑</a><span>/</span><a href="#">数码</a><span>/</span><a href="#">配件</a><span>/</span><a href="#">潮电子</a></p>
+            <ul class="fl">
+                <li><a href="#">直降千元</a></li>
+                <li><a href="#">戴尔钜惠</a></li>
+                <li><a href="#">单反相机</a></li>
+                <li><a href="#">智能家居</a></li>
+                <li><a href="#">智能路由</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">抽奖</a></li>
+                <li><a href="#">返利购</a></li>
+                <li><a href="#">微单</a></li>
+                <li><a href="#">耳机</a></li>
+                <li><a href="#">投影机</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">Apple新品</a></li>
+                <li><a href="#">微软狂欢购</a></li>
+                <li><a href="#">智能手环</a></li>
+                <li><a href="#">AppleWatch</a></li>
+                <li><a href="#">插线板线材</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap fr">
+            <div class="floor-main" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/computer1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/computer2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/computer3.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="pspan"><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block">
+                            <li><a href="#"><img src="img/cpBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand3.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand4.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand6.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/cpBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand12.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/cpBrand13.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand14.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand15.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand16.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand17.jpg"></a></li>
+                            <li><a href="#"><img src="img/cpBrand18.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="img/floor/floor2_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor2_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor2_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor2_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor2_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor2_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+    <div class="gm-adv"><a href="#"><img src="img/adv.jpg" alt=""></a></div>
+    <div id="floor3" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">3F <span>家用电器</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">洗衣机</a></li>
+                <li><a href="#">冰箱</a></li>
+                <li><a href="#">空调</a></li>
+                <li><a href="#">大屏电视</a></li>
+                <li><a href="#">影音配件</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl" style="background: #7f86ec">
+            <a href="#" class="l-top"><img src="img/threeL.png" alt=""></a>
+            <p style="background: #7179ea"><a href="#">电视</a><span>/</span><a href="#">冰箱</a><span>/</span><a href="#">洗衣机</a><span>/</span><a href="#">空调</a></p>
+            <ul class="fl">
+                <li><a href="#">智能电视</a></li>
+                <li><a href="#">奥马冰箱</a></li>
+                <li><a href="#">柜式空调</a></li>
+                <li><a href="#">变频风冷</a></li>
+                <li><a href="#">音响影院</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">曲面屏</a></li>
+                <li><a href="#">全自动</a></li>
+                <li><a href="#">壁挂式</a></li>
+                <li><a href="#">冰柜</a></li>
+                <li><a href="#">播放器</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">55英寸电视</a></li>
+                <li><a href="#">滚筒洗衣机</a></li>
+                <li><a href="#">1.5匹空调</a></li>
+                <li><a href="#">多门/对开</a></li>
+                <li><a href="#">电视影音配件</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap fr">
+            <div class="floor-main" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/electrical1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/electrical2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/electrical3.jpg" alt=""></a></li>
+                    </ul>
+                    <p><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block">
+                            <li><a href="#"><img src="img/elBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand4.png"></a></li>
+                            <li><a href="#"><img src="img/elBrand4.png"></a></li>
+                            <li><a href="#"><img src="img/elBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand6.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand13.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand14.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand15.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand16.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand17.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="img/floor/floor3_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+    <ul class="gm-qualityLife clearfix">
+        <h2>品质生活</h2>
+        <li>
+            <div class="list-li-box">
+                <a href="#"><img src="img/floor/qualityLife1.jpg" alt=""><em></em>
+                    <div class="list-cont">
+                        <span>手机</span>
+                        <p class="cont-tile">荣耀Note10现身</p>
+                        <p class="cont-info">设计水准让人惊艳</p>
+                    </div>
+                </a>
+
+            </div>
+            <ul class="clearfix list-ul">
+                <li><a href="#"><img src="img/floor/qualityLife11.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife12.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife13.jpg" width="100%"></a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="list-li-box">
+                <a href="#"><img src="img/floor/qualityLife2.jpg" alt=""><em></em>
+                    <div class="list-cont">
+                        <span>家居</span>
+                        <p class="cont-tile">厨房收纳有妙招</p>
+                        <p class="cont-info">轻松利用墙面空间</p>
+                    </div>
+                </a>
+
+            </div>
+            <ul class="clearfix list-ul">
+                <li><a href="#"><img src="img/floor/qualityLife21.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife22.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife23.jpg" width="100%"></a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="list-li-box">
+                <a href="#"><img src="img/floor/qualityLife3.jpg" alt=""><em></em>
+                    <div class="list-cont">
+                        <span>美食</span>
+                        <p class="cont-tile">电烤箱做甜点</p>
+                        <p class="cont-info">给生活多一些美味</p>
+                    </div>
+                </a>
+
+            </div>
+            <ul class="clearfix list-ul">
+                <li><a href="#"><img src="img/floor/qualityLife31.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife32.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife33.jpg" width="100%"></a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="list-li-box">
+                <a href="#"><img src="img/floor/qualityLife4.jpg" alt=""><em></em>
+                    <div class="list-cont">
+                        <span>卫浴</span>
+                        <p class="cont-tile">这么热的天儿</p>
+                        <p class="cont-info">随心所欲不需等待</p>
+                    </div>
+                </a>
+
+            </div>
+            <ul class="clearfix list-ul">
+                <li><a href="#"><img src="img/floor/qualityLife41.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife42.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife43.jpg" width="100%"></a></li>
+            </ul>
+        </li>
+
+    </ul>
+    <div id="floor4" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">4F <span>厨房卫浴</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">厨房小电</a></li>
+                <li><a href="#">生活电器</a></li>
+                <li><a href="#">净水净化</a></li>
+                <li><a href="#">热水器</a></li>
+                <li><a href="#">烟灶套餐</a></li>
+                <li><a href="#">嵌入式</a></li>
+                <li><a href="#">淘实惠</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl mc-l" style="background: #41ccb8">
+            <a href="#" class="l-top"><img src="img/fourL.jpg" alt=""></a>
+            <div style="background: #2cc7b0">
+                <p style="background:none"><a href="#">生活馆</a></p>
+                <p style="background:none"> <a href="#">厨卫新活馆</a></p>
+                <p style="background:none"><a href="#">烟灶卫浴馆</a></p>
+            </div>
+            <ul class="fl mc-list">
+                <li><a href="#">微波炉</a></li>
+                <li><a href="#">热水器</a></li>
+                <li><a href="#">净化器</a></li>
+                <li><a href="#">烟灶套餐</a></li>
+                <li><a href="#">吸尘器</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap fr mc-wrap">
+            <div class="floor-main mc-main" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl mc-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/kitchen1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/kitchen2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/kitchen3.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="pspan"><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block">
+                            <li><a href="#"><img src="img/kiBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand3.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand4.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand6.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand8.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand13.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand14.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand15.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand16.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand17.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr floor-mc">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="img/floor/floor3_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+    <div id="floor5" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">5F <span>国美超市</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">母婴玩具</a></li>
+                <li><a href="#">美妆个护</a></li>
+                <li><a href="#">食品饮料</a></li>
+                <li><a href="#">茗茶名酒</a></li>
+                <li><a href="#">健康医疗</a></li>
+                <li><a href="#">生鲜</a></li>
+                <li><a href="#">自营</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl" style="background: #e85cc5">
+            <a href="#" class="l-top"><img src="img/fiveL.jpg" alt=""></a>
+            <p style="background: #e744c1"><a href="#">母婴玩具</a><span>/</span><a href="#">美妆个护</a><span>/</span></p>
+            <!--<p style="background: #e744c1"><a href="#">食品酒水</a><span>/</span><a href="#">药品信息</a></p>-->
+            <ul class="fl">
+                <li><a href="#">休闲零食</a></li>
+                <li><a href="#">米面粮食</a></li>
+                <li><a href="#">冲调饮料</a></li>
+                <li><a href="#">茅台</a></li>
+                <li><a href="#">海之蓝</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">奔富</a></li>
+                <li><a href="#">按摩器</a></li>
+                <li><a href="#">蜂蜜</a></li>
+                <li><a href="#">矿泉水</a></li>
+                <li><a href="#">面膜</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">纸品湿巾</a></li>
+                <li><a href="#">面部护理</a></li>
+                <li><a href="#">品牌奶粉</a></li>
+                <li><a href="#">纸尿裤</a></li>
+                <li><a href="#">益智玩具</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap fr">
+            <div class="floor-main" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/electrical1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/electrical2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/electrical3.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="pspan"><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block">
+                            <li><a href="#"><img src="img/elBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand4.png"></a></li>
+                            <li><a href="#"><img src="img/elBrand4.png"></a></li>
+                            <li><a href="#"><img src="img/elBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand6.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand13.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand14.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand15.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand16.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand17.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="img/floor/floor3_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+    <div class="gm-adv"><a href="#"><img src="img/adv2.jpg" alt=""></a></div>
+    <div id="floor6" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">6F <span>服饰鞋包</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">童装童鞋</a></li>
+                <li><a href="#">服饰鞋帽</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">钟表首饰</a></li>
+                <li><a href="#">箱包奢品</a></li>
+                <li><a href="#">艾迪达斯低至98元</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl mc-l" style="background: #ff7689">
+            <a href="#" class="l-top"><img src="img/sixL.jpg" alt=""></a>
+            <div style="background: #FF6177">
+                <p style="background:none"><a href="#">钟表首饰</a></p>
+                <p style="background:none"> <a href="#">箱包奢品</a></p>
+                <p style="background:none"><a href="#">服饰鞋帽</a></p>
+            </div>
+            <ul class="fl mc-list">
+                <li><a href="#">运动跑鞋</a></li>
+                <li><a href="#">瑞士名表</a></li>
+                <li><a href="#">男士内裤</a></li>
+                <li><a href="#">拉杆箱</a></li>
+                <li><a href="#">黄金收藏</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap fr mc-wrap">
+            <div class="floor-main mc-main" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl mc-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/kitchen1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/kitchen2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/kitchen3.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="pspan"><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block" class="clearfix">
+                            <li><a href="#"><img src="img/kiBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand3.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand4.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand6.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand8.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand13.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand14.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand15.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand16.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand17.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr floor-mc">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="img/floor/floor3_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+    <div id="floor7" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">7F <span>家居家装</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">厨房热卖</a></li>
+                <li><a href="#">生活日用</a></li>
+                <li><a href="#">家纺寝居</a></li>
+                <li><a href="#">家装建材</a></li>
+                <li><a href="#">精品家具</a></li>
+                <li><a href="#">材料装修</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl mc-l" style="background: #abce5b">
+            <a href="#" class="l-top"><img src="img/sevenL.png" alt=""></a>
+            <div style="background: #9cc736">
+                <p style="background:none"><a href="#">住宅家具</a></p>
+                <p style="background:none"> <a href="#">家装建材</a></p>
+                <p style="background:none"><a href="#">家居日用</a></p>
+                <p style="background:none"><a href="#">家纺寝居</a></p>
+            </div>
+            <ul class="fl mc-list">
+                <li><a href="#">吸顶灯</a></li>
+                <li><a href="#">沙发</a></li>
+                <li><a href="#">床</a></li>
+                <li><a href="#">餐桌</a></li>
+                <li><a href="#">花洒</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap fr mc-wrap">
+            <div class="floor-main mc-main" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl mc-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/kitchen1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/kitchen2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/kitchen3.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="pspan"><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block">
+                            <li><a href="#"><img src="img/kiBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand3.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand4.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand6.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand8.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand13.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand14.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand15.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand16.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand17.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr floor-mc">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="img/floor/floor3_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main mc-list"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+    <ul class="gm-qualityLife clearfix">
+        <h2>主题推荐</h2>
+        <li>
+            <div class="list-li-box">
+                <a href="#"><img src="img/floor/qualityLife1.jpg" alt=""><em></em>
+                    <div class="list-cont">
+                        <span>手机</span>
+                        <p class="cont-tile">荣耀Note10现身</p>
+                        <p class="cont-info">设计水准让人惊艳</p>
+                    </div>
+                </a>
+
+            </div>
+            <ul class="clearfix list-ul">
+                <li><a href="#"><img src="img/floor/qualityLife11.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife12.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife13.jpg" width="100%"></a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="list-li-box">
+                <a href="#"><img src="img/floor/qualityLife2.jpg" alt=""><em></em>
+                    <div class="list-cont">
+                        <span>家居</span>
+                        <p class="cont-tile">厨房收纳有妙招</p>
+                        <p class="cont-info">轻松利用墙面空间</p>
+                    </div>
+                </a>
+
+            </div>
+            <ul class="clearfix list-ul">
+                <li><a href="#"><img src="img/floor/qualityLife21.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife22.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife23.jpg" width="100%"></a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="list-li-box">
+                <a href="#"><img src="img/floor/qualityLife3.jpg" alt=""><em></em>
+                    <div class="list-cont">
+                        <span>美食</span>
+                        <p class="cont-tile">电烤箱做甜点</p>
+                        <p class="cont-info">给生活多一些美味</p>
+                    </div>
+                </a>
+
+            </div>
+            <ul class="clearfix list-ul">
+                <li><a href="#"><img src="img/floor/qualityLife31.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife32.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife33.jpg" width="100%"></a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="list-li-box">
+                <a href="#"><img src="img/floor/qualityLife4.jpg" alt=""><em></em>
+                    <div class="list-cont">
+                        <span>卫浴</span>
+                        <p class="cont-tile">这么热的天儿</p>
+                        <p class="cont-info">随心所欲不需等待</p>
+                    </div>
+                </a>
+
+            </div>
+            <ul class="clearfix list-ul">
+                <li><a href="#"><img src="img/floor/qualityLife41.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife42.jpg" width="100%"></a></li>
+                <li><a href="#"><img src="img/floor/qualityLife43.jpg" width="100%"></a></li>
+            </ul>
+        </li>
+
+    </ul>
+    <div id="floor8" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">8F <span>汽车用品</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">车载电器</a></li>
+                <li><a href="#">四季坐垫</a></li>
+                <li><a href="#">添加剂</a></li>
+                <li><a href="#">净化器</a></li>
+                <li><a href="#">汽车轮胎</a></li>
+                <li><a href="#">自营区</a></li>
+                <li><a href="#">整车销售</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl" style="background: #829daa">
+            <a href="#" class="l-top"><img src="img/eightL.jpg" alt=""></a>
+            <p style="background: #6a8ea0"><a href="#">机油</a><span>/</span><a href="#">轮胎</a><span>/</span><a href="#">电瓶</a></p>
+            <ul class="fl">
+                <li><a href="#">行车记录</a></li>
+                <li><a href="#">机油</a></li>
+                <li><a href="#">改装配件</a></li>
+                <li><a href="#">车蜡</a></li>
+                <li><a href="#">整车</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">轮胎</a></li>
+                <li><a href="#">洗车机</a></li>
+                <li><a href="#">添加剂</a></li>
+                <li><a href="#">新品坐</a></li>
+                <li><a href="#">专场专</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="#">儿童安全座椅</a></li>
+                <li><a href="#">蓄电池</a></li>
+                <li><a href="#">防冻液</a></li>
+                <li><a href="#">车载生活</a></li>
+                <li><a href="#">维修保养</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap fr">
+            <div class="floor-main" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/electrical1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/electrical2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/electrical3.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="pspan"><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block">
+                            <li><a href="#"><img src="img/elBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand4.png"></a></li>
+                            <li><a href="#"><img src="img/elBrand4.png"></a></li>
+                            <li><a href="#"><img src="img/elBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand6.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand13.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand14.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand15.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand16.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand17.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="img/floor/floor3_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <div class="floor-main"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+    <div id="floor9" class="gm-floor clearfix">
+        <!--顶部导航-->
+        <div class="floor-top clearfix">
+            <h2 class="fl">9F <span>海外购</span></h2>
+            <ul class="fr floor-nav">
+                <li><a href="#"  class="active">精选热卖</a></li>
+                <li><a href="#">海外好货</a></li>
+            </ul>
+        </div>
+        <!--左边分类-->
+        <div class="floor-l fl mc-l" style="background: #c57ef1">
+            <a href="#" class="l-top"><img src="img/nineL.jpg" alt=""></a>
+            <div style="background: #bf70ef">
+                <p style="background:none"> <a href="#"> 女士吊带</a></p>
+                <p style="background:none"> <a href="#"> 儿童短袜</a></p>
+                <p style="background:none"> <a href="#"> 澳洲葡萄酒</a></p>
+                <p style="background:none"> <a href="#"> 男士T恤</a></p>
+            </div>
+            <ul class="fl mc-list">
+                <li><a href="#">日本打底裤</a></li>
+                <li><a href="#">女士纱边内衣</a></li>
+                <li><a href="#">加压连裤丝袜</a></li>
+            </ul>
+        </div>
+        <!--主要内容-->
+        <div class="floor-wrap fr mc-wrap">
+            <div class="floor-main mc-main" style="display: block">
+                <!--左边轮播-->
+                <div class="floor-main-fl mc-fl">
+                    <ul class="carousel">
+                        <li style="display: block"><a href="#"><img src="img/kitchen1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/kitchen2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/kitchen3.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="pspan"><span class="hover"></span><span></span><span></span></p>
+                    <div class="phBrand">
+                        <ul style="display: block">
+                            <li><a href="#"><img src="img/kiBrand1.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand2.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand3.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand4.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand5.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand6.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/kiBrand8.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand8.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand10.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand11.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand12.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><img src="img/elBrand13.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand14.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand15.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand16.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand17.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand18.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand7.jpg"></a></li>
+                            <li><a href="#"><img src="img/elBrand9.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="phBrand-page">
+                        <em class="pre"></em>
+                        <em class="next"></em>
+                    </div>
+                </div>
+                <div class="floor-main-r fr floor-mc">
+                    <ul class="clearfix main-list">
+                        <li><a href="#"><img src="img/floor/floor3_01.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_03.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_05.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/floor/floor3_06.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div >
+            <div class="floor-main"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+</div>
+</body>
+</html>
